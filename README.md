@@ -19,6 +19,7 @@ The second page - Trails - allows a user to search specific attributes of trails
 - Backend: Node.js, Express, AWS RDS MySQL Database
 
 ## Running the Project:
+NOTE: The AWS credits for this project have currently expired. The project remains to show an example of a complete CRUD project created by the author.
 - Clone the repo: ```git clone <main branch>```
 - Install client dependencies
   - ```cd client```
