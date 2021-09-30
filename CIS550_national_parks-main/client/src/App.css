@@ -1,0 +1,196 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  width: 300px;
+  height: 60px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.jumbotron-wildlife-search {
+  background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=2000&h=1333&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2011%2F03%2FDenali-National-Park-Wildlife-NPWL0516.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background: linear-gradient(rgba(0,0,0,0.2));
+  min-height: 600px;
+  position:relative;
+}
+
+.jumbotron-wildlife-search-text-container {
+  max-width: 300px;
+  position: left;
+  align-self: left;
+  text-align:center;
+  position:absolute;
+  bottom:0px;
+  left: 20px;
+  height:300px;
+}
+
+
+.jumbotron-trails-search {
+  background-image: url(https://uploads.alaska.org/destinations/denali-national-park/_1200x630_crop_center-center_82_none/denali-national-park-parks-trails.jpg?mtime=20200520124547&focal=none&tmtime=20201111135912);
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 800px;
+ }
+
+.jumbotron-recs {
+    /* background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hiker-in-north-window-arch-royalty-free-image-1588786762.jpg?crop=1.00xw:0.752xh;0,0.103xh&resize=1200:*); */
+    background-image: url(https://news.harvard.edu/wp-content/uploads/2019/09/leo-serrat_unsplash-1-1600x900.jpg);
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    background-size: 100%;
+    min-height: 500px;
+}
+
+.jumbotron-year-top {
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hiker-in-north-window-arch-royalty-free-image-1588786762.jpg?crop=1.00xw:0.752xh;0,0.103xh&resize=1200:*);
+    /* background-image: url('https://news.harvard.edu/wp-content/uploads/2019/09/leo-serrat_unsplash-1-1600x900.jpg'); */
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    background-size: 100%;
+    min-height: 500px;
+    color: white;
+    padding: 50px;
+}
+
+.jumbotron-wildlife {
+    /* background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hiker-in-north-window-arch-royalty-free-image-1588786762.jpg?crop=1.00xw:0.752xh;0,0.103xh&resize=1200:*); */
+    /* background-image: url('https://news.harvard.edu/wp-content/uploads/2019/09/leo-serrat_unsplash-1-1600x900.jpg'); */
+background-image: url('https://www.nps.gov/articles/images/GRSA_NPSphoto_960w.jpg?maxwidth=1200&maxheight=1200&autorotate=false');
+
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    background-size: 100%;
+    min-height: 500px;
+}
+
+
+.trails {
+  background-color:#388e3c;
+  border-radius: 25px;
+  padding: 20px;
+  columns: 2 auto;
+  white-space: pre-wrap;
+  margin: 20px;
+
+}
+
+
+
+ .jumbotron-trails-search-filters {
+  position: absolute;
+ }
+
+
+ .jumbotron-parks-page{
+   background-image: url(https://www.austinadventures.com/wp-content/uploads/2018/01/hidden-lake-scaled.jpg);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   min-height: 700px;
+
+ }
+
+ .jumbotron-dashboard{
+  background-image: url(http://www.derekquessenberryphotography.com/wp-content/uploads/2013/09/dq00164.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  min-height: 1200px;
+
+}
+ 
+
+/* .flex-dropdown {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 40px;
+    margin: 5px;
+    justify-content: space-around;
+} */
+
+.recs-header {
+  color: white;
+  /* text-indent: 25%; */
+}
+
+.wildlife-header-1 {
+  background-color: #2b39f8;
+  color:white;
+  opacity: 0.8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-indent: 0.5em;
+}
+
+.wildlife-header-2 {
+  background-color: #2b39f8;
+  color:white;
+  opacity: 0.8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-indent: 1.4em;
+}
+
+#wildlife-header {
+  color: black;
+}
+
+.wildlife-input-container {
+  padding: 20px;
+}
+
+#mult-select {
+  vertical-align: top;
+  color: white;
+  font-weight: bold;
+}
+
+
+.recs-results {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 40px;
+    margin: 5px;
+    justify-content: space-around;
+}
+
+.dropdown-menu {
+    height: 150px;
+    overflow-y: scroll;
+}
+
+.wildlife-results-header {
+  /* margin: 20px; */
+  text-indent: 2%;
+}
+.wildlife-results-container {
+    /* margin: 20px; */
+    text-indent: 2%;
+}
+
+
+/* 
+@media screen and(min-width:768px) {
+    .park-results {
+        grid-template-columns: repeat(3, 1fr);
+    }
+} */
+
+ 

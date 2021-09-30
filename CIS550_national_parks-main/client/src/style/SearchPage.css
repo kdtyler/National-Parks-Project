@@ -1,0 +1,31 @@
+.header-container,
+.results-container {
+    display: flex;
+    flex-flow: column wrap;
+    /* margin-top: 10px; */
+}
+
+.header-container .headers,
+.results-container .parkResults {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 40px;
+}
+
+.parkResults .Park,
+.parkResults .Code,
+.parkResults .Acres,
+.headers .header {
+    flex: 1 0 25%;
+}
+
+.movies-container .movie,
+.movies-container .movieResults {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+}
+
