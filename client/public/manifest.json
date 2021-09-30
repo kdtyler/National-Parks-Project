@@ -1,0 +1,25 @@
+{
+  "short_name": "National Park Explorer",
+  "name": "National Park Explorer",
+  "icons": [
+    {
+      "src": "https://i.etsystatic.com/13394580/r/il/a0d56e/2656180341/il_794xN.2656180341_b852.jpg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://i.etsystatic.com/13394580/r/il/a0d56e/2656180341/il_794xN.2656180341_b852.jpg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://i.etsystatic.com/13394580/r/il/a0d56e/2656180341/il_794xN.2656180341_b852.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

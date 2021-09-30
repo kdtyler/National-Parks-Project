@@ -1,0 +1,11 @@
+/* @media screen and(min-width:768px) {
+    .recs-results {
+        grid-template-columns: repeat(3, 1fr);
+    }
+} */
+
+.recs-results{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;    
+}
